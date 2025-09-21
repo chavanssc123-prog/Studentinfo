@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Student Info App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Info</h1>
+    <form id="studentForm">
+      <input name="name" id="name" placeholder="Name" required />
+      <input name="roll" id="roll" placeholder="Roll No" required />
+      <input name="className" id="className" placeholder="Class (e.g. 10A)" />
+      <input name="age" id="age" placeholder="Age" type="number" />
+      <button type="submit">Add Student</button>
+    </form>
+    <h2>Students</h2>
+    <div id="list">Loading...</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

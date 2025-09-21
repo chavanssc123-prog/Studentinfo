@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; background:#f7f7f7; }
+.container { width: 720px; margin: 40px auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+input { display:block; margin:8px 0; padding:8px; width:100%; box-sizing: border-box; }
+button { padding:10px 16px; cursor:pointer; }
+.student { padding:8px; border-bottom:1px solid #eee; }
